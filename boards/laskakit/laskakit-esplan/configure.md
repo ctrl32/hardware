@@ -39,7 +39,7 @@ Every signal of the program is a **variable**. A variable on a pin reads or driv
 
 **Modbus RTU / RS-485.** The board carries its RS-485 transceiver (WS3081, protected). ctrl32 is a Modbus RTU master - the devices and their registers are added in the device tree under RS485 - or a Modbus RTU slave that other masters read.
 
-**CAN.** The ESP32 has one CAN controller (TWAI), but this board does not bring it out to a transceiver, so ctrl32 does not offer CAN here.
+**CAN.** The ESP32 has one CAN controller (TWAI). The board has no CAN transceiver: put a 3.3 V transceiver module on two free pins and name them on the board page (Bus pins) - CANopen devices, raw CAN frames and the vehicle buses (J1939) then run on it.
 
 **MQTT.** The board publishes chosen variables to a broker; in the Home Assistant mode the broker finds them by itself, and a variable marked *write* can be set from there.
 

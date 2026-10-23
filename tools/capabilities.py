@@ -125,6 +125,8 @@ def table(web, fx, warn):
         rows.append(("CAN", "through a CAN HAT or a USB adapter", "SocketCAN, up to 4 buses"))
     elif can.get("routed"):
         rows.append(("CAN (TWAI)", str(n), "" if (fx.get("can") or {}).get("transceiver") else "needs an external transceiver"))
+    elif fx.get("wired_buses"):
+        rows.append(("CAN (TWAI)", f"{n} - on free pins", "needs an external transceiver"))
     else:
         rows.append(("CAN (TWAI)", f"{n} on the chip - not brought out on this board", ""))
     rs = fx.get("rs485")
@@ -133,6 +135,8 @@ def table(web, fx, warn):
     elif rs:
         rows.append(("Modbus RTU (RS-485)", "yes",
                      "" if fx.get("rs485_transceiver") else "on free pins, needs an external transceiver"))
+    elif fx.get("wired_buses"):
+        rows.append(("Modbus RTU (RS-485)", "yes - on free pins", "needs an external transceiver"))
     else:
         rows.append(("Modbus RTU (RS-485)", "no transceiver on the board", ""))
     rows.append(("Modbus TCP", "client and server", ""))

@@ -44,8 +44,8 @@ Board page in the catalog: [Olimex ESP32-POE2](https://ctrl32.com/hardware/board
 | Ethernet | yes - LAN8710A |  |
 | Power over Ethernet | IEEE 802.3at |  |
 | Wi-Fi | Wi-Fi 2.4 GHz |  |
-| CAN (TWAI) | 1 on the chip - not brought out on this board |  |
-| Modbus RTU (RS-485) | no transceiver on the board |  |
+| CAN (TWAI) | 1 - on free pins | needs an external transceiver |
+| Modbus RTU (RS-485) | yes - on free pins | needs an external transceiver |
 | Modbus TCP | client and server |  |
 | MQTT | yes | Home Assistant discovery |
 | WEBview | yes | the operator page in any browser |

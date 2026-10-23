@@ -44,7 +44,7 @@ Board page in the catalog: [LaskaKit ESPlan](https://ctrl32.com/hardware/boards/
 | Ethernet | yes - LAN8720A |  |
 | Power over Ethernet | IEEE 802.3af |  |
 | Wi-Fi | Wi-Fi 2.4 GHz |  |
-| CAN (TWAI) | 1 on the chip - not brought out on this board |  |
+| CAN (TWAI) | 1 - on free pins | needs an external transceiver |
 | Modbus RTU (RS-485) | yes |  |
 | Modbus TCP | client and server |  |
 | MQTT | yes | Home Assistant discovery |

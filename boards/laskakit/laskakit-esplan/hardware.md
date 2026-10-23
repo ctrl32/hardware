@@ -21,7 +21,7 @@ tags:
 - For power: 12 or 24 V DC on the screw terminal (7-40 V), or 5 V over USB-C.
 - An Ethernet cable and a free port on your network.
 - A PC with the [ctrl32 editor](https://ctrl32.com/download/) (Windows).
-- Optional, for the all-in-one example: a Modbus RTU temperature sensor (unit 1) on the RS-485 terminal; a push-button from GPIO14 to GND; a potentiometer (10 k) between 3.3 V and GND with its wiper on GPIO35.
+- Optional, for the all-in-one example: a Modbus RTU temperature sensor (unit 1) on the RS-485 terminal; a push-button from GPIO16 to GND; a potentiometer (10 k) between 3.3 V and GND with its wiper on GPIO35; a 3.3 V CAN transceiver on GPIO14 (TX) / GPIO39 (RX).
 
 ## Power
 

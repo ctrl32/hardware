@@ -19,7 +19,7 @@ tags:
 - A micro-USB data cable - for the upload and for power (5 V).
 - The name and the password of your 2.4 GHz Wi-Fi.
 - A PC with the [ctrl32 editor](https://ctrl32.com/download/) (Windows).
-- Optional, for the all-in-one example: a push-button from GPIO13 to GND; a relay module or an LED with a resistor on GPIO4; a potentiometer (10 k) between 3.3 V and GND with its wiper on GPIO32; a Li-Po cell for backup.
+- Optional, for the all-in-one example: a push-button from GPIO13 to GND; a relay module or an LED with a resistor on GPIO4; a potentiometer (10 k) between 3.3 V and GND with its wiper on GPIO32; a 3.3 V CAN transceiver on GPIO14 / GPIO34 and an RS-485 transceiver on GPIO16 / GPIO36 / GPIO17 (DE); a Li-Po cell for backup.
 
 ## Power
 

@@ -35,6 +35,8 @@ The program is a small pump controller - the shape of most machines:
 - A **Modbus TCP** energy meter on the network gives the mains voltage
   (register 0, input registers, unit 1 at 192.168.1.60 - change it to
   your meter). Above 253 V an alarm is raised.
+- **CAN** (a transceiver on GPIO4 / GPIO36) sends the level and the pump
+  state in frame 0x181 every 100 ms and receives a setpoint in 0x201.
 - **MQTT** publishes the level, the pump state and the voltage to a
   Home Assistant broker, which finds them by itself (discovery); the
   pump can be started from Home Assistant.

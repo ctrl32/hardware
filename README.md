@@ -21,6 +21,7 @@ Each board has a guide of its own - what ctrl32 does on it, the wiring, the firs
 | <img src="boards/olimex/olimex-esp32-evb/img/board-01.jpg" width="160" alt="Olimex ESP32-EVB"> | [Olimex ESP32-EVB](boards/olimex/olimex-esp32-evb/README.md) | ESP32 | Ethernet, CAN, HMI 240x320 |
 | <img src="boards/olimex/olimex-esp32-gateway/img/board-01.jpg" width="160" alt="Olimex ESP32-GATEWAY"> | [Olimex ESP32-GATEWAY](boards/olimex/olimex-esp32-gateway/README.md) | ESP32 | Ethernet |
 | <img src="boards/olimex/olimex-esp32-p4-devkit/img/board-01.jpg" width="160" alt="Olimex ESP32-P4-DevKit"> | [Olimex ESP32-P4-DevKit](boards/olimex/olimex-esp32-p4-devkit/README.md) | ESP32-P4 | Ethernet |
+| <img src="boards/olimex/olimex-esp32-p4-pc/img/board-01.jpg" width="160" alt="Olimex ESP32-P4-PC"> | [Olimex ESP32-P4-PC](boards/olimex/olimex-esp32-p4-pc/README.md) | ESP32-P4 | Ethernet |
 | <img src="boards/olimex/olimex-esp32-poe/img/board-01.jpg" width="160" alt="Olimex ESP32-PoE"> | [Olimex ESP32-PoE](boards/olimex/olimex-esp32-poe/README.md) | ESP32 | Ethernet |
 | <img src="boards/olimex/olimex-esp32-poe-iso/img/board-01.jpg" width="160" alt="Olimex ESP32-PoE-ISO"> | [Olimex ESP32-PoE-ISO](boards/olimex/olimex-esp32-poe-iso/README.md) | ESP32 | Ethernet |
 | <img src="boards/olimex/olimex-esp32-poe2/img/board-01.jpg" width="160" alt="Olimex ESP32-POE2"> | [Olimex ESP32-POE2](boards/olimex/olimex-esp32-poe2/README.md) | ESP32 | Ethernet |

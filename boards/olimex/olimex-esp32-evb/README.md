@@ -44,7 +44,7 @@ Board page in the catalog: [Olimex ESP32-EVB](https://ctrl32.com/hardware/boards
 | Ethernet | yes - LAN8710A |  |
 | Wi-Fi | Wi-Fi 2.4 GHz |  |
 | CAN (TWAI) | 1 |  |
-| Modbus RTU (RS-485) | no transceiver on the board |  |
+| Modbus RTU (RS-485) | yes - on free pins | needs an external transceiver |
 | Modbus TCP | client and server |  |
 | MQTT | yes | Home Assistant discovery |
 | WEBview | yes | the operator page in any browser |

@@ -37,7 +37,7 @@ Every signal of the program is a **variable**. A variable on a pin reads or driv
 
 **Modbus TCP.** A device on the network is added under **Ethernet → Modbus TCP master**; its registers become variables.
 
-**Modbus RTU / RS-485.** There is no RS-485 transceiver on the board. Modbus devices are reached over Modbus TCP, or through a Modbus RTU module on the UEXT UART.
+**Modbus RTU / RS-485.** The board has no RS-485 transceiver: put a 3.3 V transceiver module on free pins (TX, RX and the direction pin DE) and name them on the board page (Bus pins) - ctrl32 is then a Modbus RTU master or slave on that line. Modbus TCP devices on the network need nothing.
 
 **CAN.** The ESP32 has one CAN controller (TWAI) and this board carries its transceiver: CAN_H / CAN_L on the terminal, GPIO5 / GPIO35. CANopen devices (a drive, I/O nodes), raw CAN frames and the vehicle buses (J1939) all run on it.
 

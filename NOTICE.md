@@ -22,6 +22,20 @@ The files below belong to the makers of the boards. They are published in this r
 | `boards/makerfabs/makerfabs-matouch-esp32-p4-tft-with-touch-7-mipi/datasheets/esp32-p4-datasheet.pdf` | ESP32-P4 datasheet (pre-release) | [Makerfabs](https://www.espressif.com/sites/default/files/documentation/esp32-p4_datasheet_en.pdf) |
 | `boards/makerfabs/makerfabs-matouch-esp32-p4-tft-with-touch-7-mipi/datasheets/makerfabs-matouch-p4-sc2336-camera-datasheet.pdf` | SC2336 2 MP MIPI camera module datasheet | [Makerfabs](https://github.com/Makerfabs/MaTouch_ESP32-P4_TFT_with_Touch_7/tree/main/datasheet) |
 
+## Olimex ESP32-P4-PC
+
+© Olimex. Copied from the ctrl32.com hardware catalog.
+
+| File | What | Origin |
+|---|---|---|
+| `boards/olimex/olimex-esp32-p4-pc/img/board-01.jpg` | photo | Olimex |
+| `boards/olimex/olimex-esp32-p4-pc/img/board-02.jpg` | photo | Olimex |
+| `boards/olimex/olimex-esp32-p4-pc/img/board-03.jpg` | photo | Olimex |
+| `boards/olimex/olimex-esp32-p4-pc/img/board-04.jpg` | photo | Olimex |
+| `boards/olimex/olimex-esp32-p4-pc/schematics/olimex-esp32-p4-pc-schematic.pdf` | ESP32-P4-PC schematic Rev C | [Olimex](https://raw.githubusercontent.com/OLIMEX/ESP32-P4-PC/main/HARDWARE/ESP32-P4-PC-Rev.C/ESP32-P4-PC_Rev_C.pdf) |
+| `boards/olimex/olimex-esp32-p4-pc/schematics/esp32-p4-pc-rev-c-kicad.zip` | KiCad project | Olimex |
+| `boards/olimex/olimex-esp32-p4-pc/datasheets/olimex-esp32-p4-pc-user-manual.pdf` | ESP32-P4-PC user manual | [Olimex](https://raw.githubusercontent.com/OLIMEX/ESP32-P4-PC/main/DOCUMENTS/ESP32-P4-PC-user-manual.pdf) |
+
 ## Olimex ESP32-PoE
 
 © Olimex. Copied from the ctrl32.com hardware catalog.

@@ -18,7 +18,7 @@ tags:
 - A USB-C data cable - for the upload and for power (5 V).
 - An Ethernet cable and a free port on your network.
 - A PC with the [ctrl32 editor](https://ctrl32.com/download/) (Windows).
-- Optional, for the all-in-one example: the LED (GPIO2) is on the board; a push-button from GPIO5 to GND.
+- Optional, for the all-in-one example: the LED (GPIO2) is on the board; a push-button from GPIO20 to GND; a 3.3 V CAN transceiver on GPIO5 / GPIO21 and an RS-485 transceiver on GPIO22 / GPIO23 / GPIO32 (DE).
 
 ## Power
 

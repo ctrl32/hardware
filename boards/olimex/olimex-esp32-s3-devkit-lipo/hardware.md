@@ -20,7 +20,7 @@ tags:
 - A USB-C data cable - on the connector marked UART (the CH340X) for the upload.
 - The name and the password of your 2.4 GHz Wi-Fi.
 - A PC with the [ctrl32 editor](https://ctrl32.com/download/) (Windows).
-- Optional, for the all-in-one example: the Boot/User button (GPIO0) and the LED (GPIO38) are on the board; a potentiometer (10 k) between 3.3 V and GND with its wiper on GPIO1.
+- Optional, for the all-in-one example: the Boot/User button (GPIO0) and the LED (GPIO38) are on the board; a potentiometer (10 k) between 3.3 V and GND with its wiper on GPIO1; a 3.3 V CAN transceiver on GPIO10 / GPIO17 and an RS-485 transceiver on GPIO18 / GPIO2 / GPIO4 (DE).
 
 ## Power
 

@@ -17,7 +17,7 @@ Each project opens in the ctrl32 editor (**File → Open**) and runs on the Olim
 
 | | Project | What it shows |
 |---|---|---|
-| ![All-in-one](all-in-one/img/screen.png) | [All-in-one](all-in-one/README.md) | A motor output with start / stop, a run timer, a Modbus TCP meter, MQTT and the operator page in a browser. |
+| ![All-in-one](all-in-one/img/screen.png) | [All-in-one](all-in-one/README.md) | A motor output with start / stop, a run timer, a Modbus RTU temperature, CAN frames, a Modbus TCP meter, MQTT and the operator page in a browser. |
 
 ---
 

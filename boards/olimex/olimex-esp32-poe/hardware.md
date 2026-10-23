@@ -20,7 +20,7 @@ tags:
 - For power: a 5 V USB supply, or a PoE switch / injector (IEEE 802.3af).
 - An Ethernet cable and a free port on your network.
 - A PC with the [ctrl32 editor](https://ctrl32.com/download/) (Windows).
-- Optional, for the all-in-one example: a push-button is on the board (BUT1); a relay module or an LED with a resistor on GPIO33; a potentiometer (10 k) between 3.3 V and GND with its wiper on GPIO35.
+- Optional, for the all-in-one example: a push-button is on the board (BUT1); a relay module or an LED with a resistor on GPIO33; a potentiometer (10 k) between 3.3 V and GND with its wiper on GPIO35; a 3.3 V CAN transceiver (e.g. SN65HVD230) on GPIO4 (TX) / GPIO36 (RX) of the UEXT connector.
 
 ## Power
 

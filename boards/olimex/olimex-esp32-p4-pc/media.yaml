@@ -1,0 +1,30 @@
+photos:
+- file: img/board-01.jpg
+  alt: Olimex ESP32-P4-PC board
+  from: https://ctrl32.com/storage/f/53b4aa72-6bdd-4179-905e-1f814a6e3ea6/
+- file: img/board-02.jpg
+  alt: Olimex ESP32-P4-PC — photo 2
+  from: https://ctrl32.com/storage/f/2dcebb94-8723-4884-9bc0-b67bf28d8a40/
+- file: img/board-03.jpg
+  alt: Olimex ESP32-P4-PC — photo 3
+  from: https://ctrl32.com/storage/f/3a570b58-9742-4094-99fe-85229ab43792/
+- file: img/board-04.jpg
+  alt: Olimex ESP32-P4-PC — photo 4
+  from: https://ctrl32.com/storage/f/868fefb6-4098-4892-88f0-812f3eaa0579/
+files:
+- file: schematics/olimex-esp32-p4-pc-schematic.pdf
+  desc: ESP32-P4-PC schematic Rev C
+  kind: Schematic
+  source: https://raw.githubusercontent.com/OLIMEX/ESP32-P4-PC/main/HARDWARE/ESP32-P4-PC-Rev.C/ESP32-P4-PC_Rev_C.pdf
+  from: https://ctrl32.com/storage/f/93723e32-cf7d-453c-9cda-8fa25f3d8448/
+- file: schematics/esp32-p4-pc-rev-c-kicad.zip
+  desc: KiCad project
+  kind: KiCad project
+  source: ''
+  from: https://ctrl32.com/storage/f/b9ae4e7a-eba8-4d32-abb7-245a42f7861f/
+- file: datasheets/olimex-esp32-p4-pc-user-manual.pdf
+  desc: ESP32-P4-PC user manual
+  kind: User manual
+  source: https://raw.githubusercontent.com/OLIMEX/ESP32-P4-PC/main/DOCUMENTS/ESP32-P4-PC-user-manual.pdf
+  from: https://ctrl32.com/storage/f/852cc194-38ea-4494-8271-e4ed247133dd/
+models: []

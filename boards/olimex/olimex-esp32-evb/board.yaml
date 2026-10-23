@@ -8,6 +8,7 @@ can:
   controllers: 1
   routed: true
   transceiver: true
+wired_buses: true
 rs485: false
 rs485_transceiver: false
 display:

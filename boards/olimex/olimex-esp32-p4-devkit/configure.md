@@ -35,9 +35,9 @@ Every signal of the program is a **variable**. A variable on a pin reads or driv
 
 **Modbus TCP.** A device on the network is added under **Ethernet → Modbus TCP master**; its registers become variables.
 
-**Modbus RTU / RS-485.** There is no RS-485 transceiver on the board. Modbus devices are reached over Modbus TCP.
+**Modbus RTU / RS-485.** The board has no RS-485 transceiver: put a 3.3 V transceiver module on free pins (TX, RX and the direction pin DE) and name them on the board page (Bus pins) - ctrl32 is then a Modbus RTU master or slave on that line. Modbus TCP devices on the network need nothing.
 
-**CAN.** The ESP32-P4 has one CAN controller (TWAI), but this board does not bring it out to a transceiver, so ctrl32 does not offer CAN here.
+**CAN.** The ESP32-P4 has one CAN controller (TWAI). The board has no CAN transceiver: put a 3.3 V transceiver module on two free pins and name them on the board page (Bus pins) - CANopen devices, raw CAN frames and the vehicle buses (J1939) then run on it.
 
 **MQTT.** The board publishes chosen variables to a broker; in the Home Assistant mode the broker finds them by itself, and a variable marked *write* can be set from there.
 

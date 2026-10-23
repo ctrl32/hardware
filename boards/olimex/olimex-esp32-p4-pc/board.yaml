@@ -1,0 +1,39 @@
+# ctrl32 facts of this board - generated from the editor's board catalog
+board: olimex_esp32_p4_pc
+chip: ESP32-P4
+module: ESP32-P4NRW32
+linux: false
+ethernet: IP101GRI
+can:
+  controllers: 1
+  routed: false
+  transceiver: false
+wired_buses: true
+rs485: false
+rs485_transceiver: false
+display: null
+touch: null
+limits:
+  variables: 4096
+  alarms: 512
+  blocks: 1024
+  screens: 32
+  widgets: 256
+free_gpio:
+- 5
+- 2
+- 14
+- 15
+- 16
+- 17
+- 18
+- 19
+- 20
+- 32
+- 33
+- 36
+- 46
+- 47
+- 48
+analog_gpio: []
+input_only_gpio: []

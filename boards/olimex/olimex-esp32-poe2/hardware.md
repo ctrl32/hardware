@@ -21,7 +21,7 @@ tags:
 - For power: a PoE switch / injector (IEEE 802.3at, class 4 for the full 25 W), or a 5 V USB supply.
 - An Ethernet cable and a free port on your network.
 - A PC with the [ctrl32 editor](https://ctrl32.com/download/) (Windows).
-- Optional, for the all-in-one example: the button BUT1 is on the board; a relay module or an LED on GPIO4 (UEXT); a potentiometer (10 k) between 3.3 V and GND with its wiper on GPIO36.
+- Optional, for the all-in-one example: the button BUT1 is on the board; a relay module or an LED on GPIO4 (UEXT); a potentiometer (10 k) between 3.3 V and GND with its wiper on GPIO36; a 3.3 V CAN transceiver on GPIO5 (TX) / GPIO39 (RX).
 
 ## Power
 
