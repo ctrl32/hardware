@@ -1,0 +1,33 @@
+# ctrl32 facts of this board - generated from the editor's board catalog
+board: makerfabs_matouch_lite_s3_395
+chip: ESP32-S3
+module: esp32s3_wroom_1_n16r8
+linux: false
+ethernet: null
+can:
+  controllers: 1
+  routed: true
+  transceiver: false
+rs485: true
+rs485_transceiver: false
+display:
+- 320
+- 480
+touch: NS2009
+limits:
+  variables: 512
+  alarms: 128
+  blocks: 512
+  screens: 32
+  widgets: 64
+free_gpio:
+- 5
+- 4
+- 6
+- 7
+analog_gpio:
+- 4
+- 5
+- 6
+- 7
+input_only_gpio: []

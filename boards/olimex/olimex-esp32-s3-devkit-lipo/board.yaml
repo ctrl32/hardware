@@ -1,0 +1,53 @@
+# ctrl32 facts of this board - generated from the editor's board catalog
+board: olimex_esp32_s3_devkit_lipo
+chip: ESP32-S3
+module: ESP32-S3-WROOM-1-N8R8
+linux: false
+ethernet: null
+can:
+  controllers: 1
+  routed: false
+  transceiver: false
+rs485: false
+rs485_transceiver: false
+display: null
+touch: null
+limits:
+  variables: 512
+  alarms: 128
+  blocks: 1024
+  screens: 32
+  widgets: 64
+free_gpio:
+- 10
+- 17
+- 18
+- 38
+- 0
+- 5
+- 6
+- 1
+- 2
+- 4
+- 7
+- 8
+- 9
+- 14
+- 15
+- 16
+- 21
+- 39
+- 40
+- 41
+- 42
+analog_gpio:
+- 1
+- 2
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- 10
+input_only_gpio: []

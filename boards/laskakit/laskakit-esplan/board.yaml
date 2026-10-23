@@ -1,0 +1,33 @@
+# ctrl32 facts of this board - generated from the editor's board catalog
+board: laskakit_esp32_lan
+chip: ESP32
+module: ESP32-WROOM-32E-N4
+linux: false
+ethernet: LAN8720A
+can:
+  controllers: 1
+  routed: false
+  transceiver: false
+rs485: true
+rs485_transceiver: true
+display: null
+touch: null
+limits:
+  variables: 128
+  alarms: 32
+  blocks: 128
+  screens: 32
+  widgets: 64
+  axes: 1
+free_gpio:
+- 14
+- 0
+- 16
+- 35
+- 39
+analog_gpio:
+- 35
+- 39
+input_only_gpio:
+- 35
+- 39

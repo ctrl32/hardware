@@ -1,0 +1,38 @@
+# ctrl32 facts of this board - generated from the editor's board catalog
+board: olimex_esp32_evb
+chip: ESP32
+module: ESP32-WROOM-32E-N4
+linux: false
+ethernet: LAN8710A
+can:
+  controllers: 1
+  routed: true
+  transceiver: true
+rs485: false
+rs485_transceiver: false
+display:
+- 240
+- 320
+touch: null
+limits:
+  variables: 128
+  alarms: 32
+  blocks: 128
+  screens: 32
+  widgets: 64
+  axes: 1
+free_gpio:
+- 17
+- 32
+- 33
+- 34
+- 4
+- 36
+analog_gpio:
+- 32
+- 33
+- 34
+- 36
+input_only_gpio:
+- 34
+- 36

@@ -1,0 +1,34 @@
+# ctrl32 facts of this board - generated from the editor's board catalog
+board: olimex_esp32_poe2
+chip: ESP32
+module: ESP32-WROVER-E-N4R8
+linux: false
+ethernet: LAN8710A
+can:
+  controllers: 1
+  routed: false
+  transceiver: false
+rs485: false
+rs485_transceiver: false
+display: null
+touch: null
+limits:
+  variables: 512
+  alarms: 128
+  blocks: 1024
+  screens: 32
+  widgets: 64
+free_gpio:
+- 5
+- 4
+- 36
+- 34
+- 39
+analog_gpio:
+- 34
+- 36
+- 39
+input_only_gpio:
+- 34
+- 36
+- 39

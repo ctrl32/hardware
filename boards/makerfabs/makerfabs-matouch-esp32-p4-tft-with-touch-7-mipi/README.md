@@ -88,6 +88,6 @@ Board page in the catalog: [Makerfabs MaTouch ESP32-P4 7"](https://ctrl32.com/ha
 - [ctrl32 documentation](https://ctrl32.com/docs/) - the editor, the languages, every block
 - [Download the editor](https://ctrl32.com/download/)
 - [All tested boards](../../README.md)
-- Makerfabs MaTouch Lite ESP32-S3 3.95" - the small sibling
+- [Makerfabs MaTouch Lite ESP32-S3 3.95"](../makerfabs-matouch-lite-esp32-s3-spi-resistive-touch-395-st7796/README.md) - the small sibling
 - [Smart home control panel on the MaTouch ESP32-P4](https://ctrl32.com/examples/smart-home-control-panel-on-an-esp32-p4-7-touch-display/) - a full example on the web
 

@@ -1,0 +1,53 @@
+# ctrl32 facts of this board - generated from the editor's board catalog
+board: olimex_esp32_devkit_lipo
+chip: ESP32
+module: ESP32-WROOM-32E-N4
+linux: false
+ethernet: null
+can:
+  controllers: 1
+  routed: false
+  transceiver: false
+rs485: false
+rs485_transceiver: false
+display: null
+touch: null
+limits:
+  variables: 128
+  alarms: 32
+  blocks: 128
+  screens: 32
+  widgets: 64
+  axes: 1
+free_gpio:
+- 4
+- 13
+- 14
+- 16
+- 17
+- 18
+- 19
+- 21
+- 22
+- 23
+- 25
+- 26
+- 27
+- 32
+- 33
+- 34
+- 36
+- 35
+- 39
+analog_gpio:
+- 32
+- 33
+- 34
+- 35
+- 36
+- 39
+input_only_gpio:
+- 34
+- 35
+- 36
+- 39
