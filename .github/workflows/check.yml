@@ -1,0 +1,29 @@
+# Every push and pull request: the guides are complete (tools/check.py), the
+# capability tables match the ctrl32.com catalog, and the same files still
+# build a plain MkDocs site with no broken link (--strict).
+#
+# Nothing is published from here: ctrl32.com reads the guides straight from
+# this repository and is their one published home.
+name: Check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python tools/check.py
+      - run: mkdocs build --strict

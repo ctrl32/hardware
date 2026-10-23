@@ -1,0 +1,40 @@
+This repository is published under two licences.
+
+1. The texts, the pin maps and the screenshots - everything except the
+   example projects and the material listed in NOTICE.md - are licensed under
+   the Creative Commons Attribution 4.0 International licence (CC BY 4.0):
+   https://creativecommons.org/licenses/by/4.0/
+   You may share and adapt them for any purpose, also commercially, as long
+   as you give appropriate credit ("ctrl32 - github.com/ctrl32/hardware"),
+   link to the licence and say whether you changed anything.
+
+2. The example projects (every file under boards/**/examples/ ending in
+   .prj32) are licensed under the MIT licence:
+
+   MIT License
+
+   Copyright (c) ctrl32
+
+   Permission is hereby granted, free of charge, to any person obtaining a
+   copy of this software and associated documentation files (the
+   "Software"), to deal in the Software without restriction, including
+   without limitation the rights to use, copy, modify, merge, publish,
+   distribute, sublicense, and/or sell copies of the Software, and to permit
+   persons to whom the Software is furnished to do so, subject to the
+   following conditions:
+
+   The above copyright notice and this permission notice shall be included
+   in all copies or substantial portions of the Software.
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+   OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
+   NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+   DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+   OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+   USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+The board photos, schematics, KiCad projects, datasheets and 3D models of the
+board makers are NOT covered by either licence. They remain the property of
+their makers and are published here with permission; NOTICE.md lists each of
+them and where it comes from.

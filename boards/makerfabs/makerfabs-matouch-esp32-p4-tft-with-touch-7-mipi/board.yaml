@@ -1,0 +1,37 @@
+# ctrl32 facts of this board - generated from the editor's board catalog
+board: makerfabs_matouch_p4_7
+chip: ESP32-P4
+module: ESP32-P4NRW32
+linux: false
+ethernet: IP101GRI
+can:
+  controllers: 1
+  routed: true
+  transceiver: false
+rs485: true
+rs485_transceiver: false
+display:
+- 1024
+- 600
+touch: GT911
+limits:
+  variables: 4096
+  alarms: 512
+  blocks: 512
+  screens: 32
+  widgets: 256
+free_gpio:
+- 20
+- 21
+- 3
+- 4
+- 2
+- 33
+- 47
+- 48
+- 5
+- 32
+- 46
+- 36
+analog_gpio: []
+input_only_gpio: []

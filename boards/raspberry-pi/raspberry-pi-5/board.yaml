@@ -1,0 +1,23 @@
+# ctrl32 facts of this board - generated from the editor's board catalog
+board: raspberry_pi
+chip: Linux
+module: ''
+linux: true
+ethernet: 'yes'
+can:
+  controllers: null
+  routed: true
+  transceiver: false
+rs485: true
+rs485_transceiver: false
+display: null
+touch: null
+limits:
+  variables: 20480
+  alarms: 4096
+  blocks: 40960
+  screens: 1024
+  widgets: 1024
+free_gpio: []
+analog_gpio: []
+input_only_gpio: []

@@ -1,0 +1,41 @@
+site_name: ctrl32 hardware
+site_description: >-
+  Tested boards for ctrl32 - setup guides, pin maps, schematics and example
+  projects.
+site_url: https://ctrl32.com/docs/hardware/
+repo_url: https://github.com/ctrl32/hardware
+edit_uri: edit/main/boards/
+docs_dir: boards
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - content.code.copy
+    - search.suggest
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+
+plugins:
+  - search
+
+exclude_docs: |
+  *.yaml
+  _category_.json
+
+validation:
+  links:
+    not_found: warn
+    absolute_links: info
+    unrecognized_links: info

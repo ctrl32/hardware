@@ -1,0 +1,25 @@
+photos:
+- file: img/board-01.jpg
+  alt: Raspberry Pi 5
+  from: https://ctrl32.com/storage/f/17db7145-0702-4ad4-b1ef-30ae35fcccdc/
+- file: img/board-02.jpg
+  alt: Raspberry Pi 5 — photo 2
+  from: https://ctrl32.com/storage/f/62183043-b7de-418a-b9bf-19d0dbdf480c/
+- file: img/board-03.jpg
+  alt: Raspberry Pi 5 — photo 3
+  from: https://ctrl32.com/storage/f/ac60f989-9dd2-4257-ad35-6655f365b9eb/
+files:
+- file: datasheets/raspberry-pi-5-mechanical-drawing.pdf
+  desc: Raspberry Pi 5 mechanical drawing
+  kind: Documentation
+  source: https://pip.raspberrypi.com/documents/RP-008347-DS-1-raspberry-pi-5-mechanical-drawing.pdf
+  from: https://ctrl32.com/storage/f/62d854ec-ff9e-4d08-9b13-ff2686299f90/
+- file: datasheets/raspberry-pi-5-rp1-peripherals.pdf
+  desc: RP1 peripherals
+  kind: Datasheet
+  source: https://pip.raspberrypi.com/documents/RP-008370-DS-1-rp1-peripherals.pdf
+  from: https://ctrl32.com/storage/f/518c99c5-85ac-434f-90a7-5fe4a6aa411c/
+models:
+- file: 3d/raspberry-pi-5-3d.zip
+  name: raspberry-pi-5-3d.glb
+  from: https://ctrl32.com/storage/f/5f1cc1a5-158c-49f2-9c9b-63eeddd5161d/

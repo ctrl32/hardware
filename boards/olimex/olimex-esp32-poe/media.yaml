@@ -1,0 +1,24 @@
+photos:
+- file: img/board-01.jpg
+  alt: Olimex ESP32-PoE development board
+  from: https://ctrl32.com/storage/f/3252c2d6-c479-4d15-be6c-dcaf278c39bd/
+files:
+- file: schematics/olimex-esp32-poe-schematic.pdf
+  desc: ESP32-PoE schematic Rev M2
+  kind: Schematic
+  source: https://raw.githubusercontent.com/OLIMEX/ESP32-POE/master/HARDWARE/ESP32-PoE-hardware-revision-M2/ESP32-PoE_Rev_M2.pdf
+  from: https://ctrl32.com/storage/f/d2cc1c4f-d07d-40a0-ad16-e9b67545b569/
+- file: schematics/esp32-poe-revm2.zip
+  desc: KiCad project
+  kind: KiCad project
+  source: ''
+  from: https://ctrl32.com/storage/f/caa15c90-5260-4027-91ab-2364783198cd/
+- file: datasheets/olimex-esp32-poe-user-manual.pdf
+  desc: ESP32-PoE user manual
+  kind: User manual
+  source: https://raw.githubusercontent.com/OLIMEX/ESP32-POE/master/DOCUMENTS/ESP32-POE-user-manual.pdf
+  from: https://ctrl32.com/storage/f/4b325b9d-dcd6-4e3f-90ef-c7d95b79bbca/
+models:
+- file: 3d/olimex-esp32-poe.zip
+  name: Olimex-ESP32-PoE.step
+  from: https://ctrl32.com/storage/f/e9448376-0eb5-45b5-a5a0-f712ae1a2071/

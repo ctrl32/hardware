@@ -1,0 +1,52 @@
+photos:
+- file: img/board-01.jpg
+  alt: Makerfabs MaTouch ESP32-P4 TFT with Touch 7" MIPI
+  from: https://ctrl32.com/storage/f/301a6ea2-fb3b-4be4-a8df-a6192a573037/
+- file: img/board-02.jpg
+  alt: Makerfabs MaTouch ESP32-P4 TFT with Touch 7" MIPI — photo 2
+  from: https://ctrl32.com/storage/f/da76974d-3f2a-4a3e-83b9-014c4ea7338f/
+- file: img/board-03.jpg
+  alt: Makerfabs MaTouch ESP32-P4 TFT with Touch 7" MIPI — photo 3
+  from: https://ctrl32.com/storage/f/dda8e825-3fef-4b8a-a8bd-41e178ed8bdb/
+- file: img/board-04.jpg
+  alt: Makerfabs MaTouch ESP32-P4 TFT with Touch 7" MIPI — photo 4
+  from: https://ctrl32.com/storage/f/d0eaca03-a1e3-4a28-803e-f7ca901b63cf/
+- file: img/board-05.jpg
+  alt: Makerfabs MaTouch ESP32-P4 TFT with Touch 7" MIPI — photo 5
+  from: https://ctrl32.com/storage/f/3afc8b0d-dfd2-49c0-83f8-780d3dc4bb16/
+- file: img/board-06.jpg
+  alt: Makerfabs MaTouch ESP32-P4 TFT with Touch 7" MIPI — photo 6
+  from: https://ctrl32.com/storage/f/84ebf5d8-301d-4c93-9a2c-c601ab7fe1ca/
+- file: img/board-07.jpg
+  alt: Makerfabs MaTouch ESP32-P4 TFT with Touch 7" MIPI — photo 7
+  from: https://ctrl32.com/storage/f/211bae60-6247-49e0-b3ae-c1c4ca86b031/
+- file: img/board-08.jpg
+  alt: Makerfabs MaTouch ESP32-P4 TFT with Touch 7" MIPI — photo 8
+  from: https://ctrl32.com/storage/f/3b16be8d-e192-4f5f-8af1-723853b25945/
+files:
+- file: schematics/makerfabs-matouch_esp32-p4_tft_with_touch_7_v1.2.pdf
+  desc: MaTouch ESP32-P4 TFT with Touch 7“ V1.2
+  kind: Schematic
+  source: https://raw.githubusercontent.com/Makerfabs/MaTouch_ESP32-P4_TFT_with_Touch_7/main/hardware/MaTouch%20ESP32-P4%20TFT%20with%20Touch%207%E2%80%9C%20V1.2.PDF
+  from: https://ctrl32.com/storage/f/99b2daf2-1303-4d69-afb8-a732479601e8/
+- file: datasheets/makerfabs-matouch-p4-7-display-datasheet.pdf
+  desc: 7" 1024x600 MIPI display AML070JGI50 datasheet
+  kind: Datasheet
+  source: https://github.com/Makerfabs/MaTouch_ESP32-P4_TFT_with_Touch_7/tree/main/datasheet
+  from: https://ctrl32.com/storage/f/086f6210-3d83-454b-8a42-390c9f781fa1/
+- file: datasheets/makerfabs-matouch-p4-es8311-datasheet.pdf
+  desc: ES8311 audio codec datasheet
+  kind: Datasheet
+  source: https://github.com/Makerfabs/MaTouch_ESP32-P4_TFT_with_Touch_7/tree/main/datasheet
+  from: https://ctrl32.com/storage/f/f0c4385e-1f22-44f5-9365-17883c231f57/
+- file: datasheets/esp32-p4-datasheet.pdf
+  desc: ESP32-P4 datasheet (pre-release)
+  kind: Datasheet
+  source: https://www.espressif.com/sites/default/files/documentation/esp32-p4_datasheet_en.pdf
+  from: https://ctrl32.com/storage/f/70ddba76-2233-44e5-be30-80e7584b81f4/
+- file: datasheets/makerfabs-matouch-p4-sc2336-camera-datasheet.pdf
+  desc: SC2336 2 MP MIPI camera module datasheet
+  kind: Datasheet
+  source: https://github.com/Makerfabs/MaTouch_ESP32-P4_TFT_with_Touch_7/tree/main/datasheet
+  from: https://ctrl32.com/storage/f/18c17e15-d162-4478-aaaa-1de4a70462ed/
+models: []

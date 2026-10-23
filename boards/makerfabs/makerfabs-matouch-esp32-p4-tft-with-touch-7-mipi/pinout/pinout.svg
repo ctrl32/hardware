@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="882" viewBox="0 0 1160 882" font-family="Noto Sans, Arial, sans-serif">
+<rect width="1160" height="882" fill="#ffffff"/>
+<rect width="1160" height="64" fill="#0f172a"/>
+<text x="20" y="41" font-size="24" fill="#ffffff">Makerfabs MaTouch ESP32-P4 7&quot;</text>
+<text x="1140" y="41" font-size="16" fill="#38bdf8" text-anchor="end">ctrl32 pin map</text>
+<text x="20" y="96" font-size="14" fill="#475569">GPIO numbers of the ESP32-P4; the function each pin has in ctrl32</text>
+<rect x="20" y="120" width="64" height="26" rx="5" fill="#e2e8f0"/>
+<text x="52" y="138" font-size="15" font-family="DejaVu Sans Mono, monospace" text-anchor="middle" fill="#0f172a">0</text>
+<rect x="92" y="120" width="250" height="26" rx="5" fill="#64748b"/>
+<text x="102" y="138" font-size="14" fill="#ffffff">RTC XTAL P</text>
+<rect x="20" y="154" width="64" height="26" rx="5" fill="#e2e8f0"/>
+<text x="52" y="172" font-size="15" font-family="DejaVu Sans Mono, monospace" text-anchor="middle" fill="#0f172a">1</text>
+<rect x="92" y="154" width="250" height="26" rx="5" fill="#64748b"/>
+<text x="102" y="172" font-size="14" fill="#ffffff">RTC XTAL N</text>
+<rect x="20" y="188" width="64" height="26" rx="5" fill="#e2e8f0"/>
+<text x="52" y="206" font-size="15" font-family="DejaVu Sans Mono, monospace" text-anchor="middle" fill="#0f172a">2</text>
+<rect x="92" y="188" width="250" height="26" rx="5" fill="#16a34a"/>
+<text x="102" y="206" font-size="14" fill="#ffffff">free I/O</text>
+<rect x="20" y="222" width="64" height="26" rx="5" fill="#e2e8f0"/>
+<text x="52" y="240" font-size="15" font-family="DejaVu Sans Mono, monospace" text-anchor="middle" fill="#0f172a">3</text>
+<rect x="92" y="222" width="250" height="26" rx="5" fill="#16a34a"/>
+<text x="102" y="240" font-size="14" fill="#ffffff">free I/O</text>
+<rect x="20" y="256" width="64" height="26" rx="5" fill="#e2e8f0"/>
+<text x="52" y="274" font-size="15" font-family="DejaVu Sans Mono, monospace" text-anchor="middle" fill="#0f172a">4</text>
+<rect x="92" y="256" width="250" height="26" rx="5" fill="#16a34a"/>
+<text x="102" y="274" font-size="14" fill="#ffffff">free I/O</text>
+<rect x="20" y="290" width="64" height="26" rx="5" fill="#e2e8f0"/>
+<text x="52" y="308" font-size="15" font-family="DejaVu Sans Mono, monospace" text-anchor="middle" fill="#0f172a">5</text>
+<rect x="92" y="290" width="250" height="26" rx="5" fill="#16a34a"/>
+<text x="102" y="308" font-size="14" fill="#ffffff">free I/O</text>
+<rect x="20" y="324" width="64" height="26" rx="5" fill="#e2e8f0"/>
+<text x="52" y="342" font-size="15" font-family="DejaVu Sans Mono, monospace" text-anchor="middle" fill="#0f172a">6</text>
+<rect x="92" y="324" width="250" height="26" rx="5" fill="#64748b"/>
+<text x="102" y="342" font-size="14" fill="#ffffff">C6 IO2</text>
+<rect x="20" y="358" width="64" height="26" rx="5" fill="#e2e8f0"/>
+<text x="52" y="376" font-size="15" font-family="DejaVu Sans Mono, monospace" text-anchor="middle" fill="#0f172a">7</text>
+<rect x="92" y="358" width="250" height="26" rx="5" fill="#0891b2"/>
+<text x="102" y="376" font-size="14" fill="#ffffff">TOUCH SDA</text>
+<rect x="20" y="392" width="64" height="26" rx="5" fill="#e2e8f0"/>
+<text x="52" y="410" font-size="15" font-family="DejaVu Sans Mono, monospace" text-anchor="middle" fill="#0f172a">8</text>
+<rect x="92" y="392" width="250" height="26" rx="5" fill="#0891b2"/>
+<text x="102" y="410" font-size="14" fill="#ffffff">TOUCH SCL</text>
+<rect x="20" y="426" width="64" height="26" rx="5" fill="#e2e8f0"/>
+<text x="52" y="444" font-size="15" font-family="DejaVu Sans Mono, monospace" text-anchor="middle" fill="#0f172a">20</text>
+<rect x="92" y="426" width="250" height="26" rx="5" fill="#16a34a"/>
+<text x="102" y="444" font-size="14" fill="#ffffff">free I/O</text>
+<rect x="20" y="460" width="64" height="26" rx="5" fill="#e2e8f0"/>
+<text x="52" y="478" font-size="15" font-family="DejaVu Sans Mono, monospace" text-anchor="middle" fill="#0f172a">21</text>
+<rect x="92" y="460" width="250" height="26" rx="5" fill="#16a34a"/>
+<text x="102" y="478" font-size="14" fill="#ffffff">free I/O</text>
+<rect x="20" y="494" width="64" height="26" rx="5" fill="#e2e8f0"/>
+<text x="52" y="512" font-size="15" font-family="DejaVu Sans Mono, monospace" text-anchor="middle" fill="#0f172a">22</text>
+<rect x="92" y="494" width="250" height="26" rx="5" fill="#0891b2"/>
+<text x="102" y="512" font-size="14" fill="#ffffff">TOUCH RST</text>
+<rect x="20" y="528" width="64" height="26" rx="5" fill="#e2e8f0"/>
+<text x="52" y="546" font-size="15" font-family="DejaVu Sans Mono, monospace" text-anchor="middle" fill="#0f172a">23</text>
+<rect x="92" y="528" width="250" height="26" rx="5" fill="#0891b2"/>
+<text x="102" y="546" font-size="14" fill="#ffffff">TFT BL</text>
+<rect x="20" y="562" width="64" height="26" rx="5" fill="#e2e8f0"/>
+<text x="52" y="580" font-size="15" font-family="DejaVu Sans Mono, monospace" text-anchor="middle" fill="#0f172a">26</text>
+<rect x="92" y="562" width="250" height="26" rx="5" fill="#64748b"/>
+<text x="102" y="580" font-size="14" fill="#ffffff">USB1 PAIR</text>
+<rect x="20" y="596" width="64" height="26" rx="5" fill="#e2e8f0"/>
+<text x="52" y="614" font-size="15" font-family="DejaVu Sans Mono, monospace" text-anchor="middle" fill="#0f172a">27</text>
+<rect x="92" y="596" width="250" height="26" rx="5" fill="#0891b2"/>
+<text x="102" y="614" font-size="14" fill="#ffffff">DSI RST</text>
+<rect x="20" y="630" width="64" height="26" rx="5" fill="#e2e8f0"/>
+<text x="52" y="648" font-size="15" font-family="DejaVu Sans Mono, monospace" text-anchor="middle" fill="#0f172a">28</text>
+<rect x="92" y="630" width="250" height="26" rx="5" fill="#475569"/>
+<text x="102" y="648" font-size="14" fill="#ffffff">Ethernet RMII (IP101GRI)</text>
+<text x="352" y="648" font-size="13" fill="#475569">used by the board</text>
+<rect x="20" y="664" width="64" height="26" rx="5" fill="#e2e8f0"/>
+<text x="52" y="682" font-size="15" font-family="DejaVu Sans Mono, monospace" text-anchor="middle" fill="#0f172a">29</text>
+<rect x="92" y="664" width="250" height="26" rx="5" fill="#475569"/>
+<text x="102" y="682" font-size="14" fill="#ffffff">Ethernet RMII (IP101GRI)</text>
+<text x="352" y="682" font-size="13" fill="#475569">used by the board</text>
+<rect x="20" y="698" width="64" height="26" rx="5" fill="#e2e8f0"/>
+<text x="52" y="716" font-size="15" font-family="DejaVu Sans Mono, monospace" text-anchor="middle" fill="#0f172a">30</text>
+<rect x="92" y="698" width="250" height="26" rx="5" fill="#475569"/>
+<text x="102" y="716" font-size="14" fill="#ffffff">Ethernet RMII (IP101GRI)</text>
+<text x="352" y="716" font-size="13" fill="#475569">used by the board</text>
+<rect x="580" y="120" width="64" height="26" rx="5" fill="#e2e8f0"/>
+<text x="612" y="138" font-size="15" font-family="DejaVu Sans Mono, monospace" text-anchor="middle" fill="#0f172a">31</text>
+<rect x="652" y="120" width="250" height="26" rx="5" fill="#475569"/>
+<text x="662" y="138" font-size="14" fill="#ffffff">Ethernet MDC (IP101GRI)</text>
+<text x="912" y="138" font-size="13" fill="#475569">used by the board</text>
+<rect x="580" y="154" width="64" height="26" rx="5" fill="#e2e8f0"/>
+<text x="612" y="172" font-size="15" font-family="DejaVu Sans Mono, monospace" text-anchor="middle" fill="#0f172a">32</text>
+<rect x="652" y="154" width="250" height="26" rx="5" fill="#16a34a"/>
+<text x="662" y="172" font-size="14" fill="#ffffff">free I/O</text>
+<rect x="580" y="188" width="64" height="26" rx="5" fill="#e2e8f0"/>
+<text x="612" y="206" font-size="15" font-family="DejaVu Sans Mono, monospace" text-anchor="middle" fill="#0f172a">33</text>
+<rect x="652" y="188" width="250" height="26" rx="5" fill="#16a34a"/>
+<text x="662" y="206" font-size="14" fill="#ffffff">free I/O</text>
+<rect x="580" y="222" width="64" height="26" rx="5" fill="#e2e8f0"/>
+<text x="612" y="240" font-size="15" font-family="DejaVu Sans Mono, monospace" text-anchor="middle" fill="#0f172a">34</text>
+<rect x="652" y="222" width="250" height="26" rx="5" fill="#475569"/>
+<text x="662" y="240" font-size="14" fill="#ffffff">Ethernet RMII (IP101GRI)</text>
+<text x="912" y="240" font-size="13" fill="#475569">used by the board</text>
+<rect x="580" y="256" width="64" height="26" rx="5" fill="#e2e8f0"/>
+<text x="612" y="274" font-size="15" font-family="DejaVu Sans Mono, monospace" text-anchor="middle" fill="#0f172a">35</text>
+<rect x="652" y="256" width="250" height="26" rx="5" fill="#475569"/>
+<text x="662" y="274" font-size="14" fill="#ffffff">Ethernet RMII (IP101GRI)</text>
+<text x="912" y="274" font-size="13" fill="#475569">used by the board</text>
+<rect x="580" y="290" width="64" height="26" rx="5" fill="#e2e8f0"/>
+<text x="612" y="308" font-size="15" font-family="DejaVu Sans Mono, monospace" text-anchor="middle" fill="#0f172a">36</text>
+<rect x="652" y="290" width="250" height="26" rx="5" fill="#16a34a"/>
+<text x="662" y="308" font-size="14" fill="#ffffff">free I/O</text>
+<text x="912" y="308" font-size="13" fill="#475569">strapping pin</text>
+<rect x="580" y="324" width="64" height="26" rx="5" fill="#e2e8f0"/>
+<text x="612" y="342" font-size="15" font-family="DejaVu Sans Mono, monospace" text-anchor="middle" fill="#0f172a">37</text>
+<rect x="652" y="324" width="250" height="26" rx="5" fill="#64748b"/>
+<text x="662" y="342" font-size="14" fill="#ffffff">CONSOLE RX</text>
+<text x="912" y="342" font-size="13" fill="#475569">strapping pin</text>
+<rect x="580" y="358" width="64" height="26" rx="5" fill="#e2e8f0"/>
+<text x="612" y="376" font-size="15" font-family="DejaVu Sans Mono, monospace" text-anchor="middle" fill="#0f172a">38</text>
+<rect x="652" y="358" width="250" height="26" rx="5" fill="#64748b"/>
+<text x="662" y="376" font-size="14" fill="#ffffff">CONSOLE TX</text>
+<text x="912" y="376" font-size="13" fill="#475569">strapping pin</text>
+<rect x="580" y="392" width="64" height="26" rx="5" fill="#e2e8f0"/>
+<text x="612" y="410" font-size="15" font-family="DejaVu Sans Mono, monospace" text-anchor="middle" fill="#0f172a">45</text>
+<rect x="652" y="392" width="250" height="26" rx="5" fill="#64748b"/>
+<text x="662" y="410" font-size="14" fill="#ffffff">MOSFET GATE</text>
+<rect x="580" y="426" width="64" height="26" rx="5" fill="#e2e8f0"/>
+<text x="612" y="444" font-size="15" font-family="DejaVu Sans Mono, monospace" text-anchor="middle" fill="#0f172a">46</text>
+<rect x="652" y="426" width="250" height="26" rx="5" fill="#16a34a"/>
+<text x="662" y="444" font-size="14" fill="#ffffff">free I/O</text>
+<rect x="580" y="460" width="64" height="26" rx="5" fill="#e2e8f0"/>
+<text x="612" y="478" font-size="15" font-family="DejaVu Sans Mono, monospace" text-anchor="middle" fill="#0f172a">47</text>
+<rect x="652" y="460" width="250" height="26" rx="5" fill="#16a34a"/>
+<text x="662" y="478" font-size="14" fill="#ffffff">free I/O</text>
+<rect x="580" y="494" width="64" height="26" rx="5" fill="#e2e8f0"/>
+<text x="612" y="512" font-size="15" font-family="DejaVu Sans Mono, monospace" text-anchor="middle" fill="#0f172a">48</text>
+<rect x="652" y="494" width="250" height="26" rx="5" fill="#16a34a"/>
+<text x="662" y="512" font-size="14" fill="#ffffff">free I/O</text>
+<rect x="580" y="528" width="64" height="26" rx="5" fill="#e2e8f0"/>
+<text x="612" y="546" font-size="15" font-family="DejaVu Sans Mono, monospace" text-anchor="middle" fill="#0f172a">49</text>
+<rect x="652" y="528" width="250" height="26" rx="5" fill="#475569"/>
+<text x="662" y="546" font-size="14" fill="#ffffff">Ethernet RMII (IP101GRI)</text>
+<text x="912" y="546" font-size="13" fill="#475569">used by the board</text>
+<rect x="580" y="562" width="64" height="26" rx="5" fill="#e2e8f0"/>
+<text x="612" y="580" font-size="15" font-family="DejaVu Sans Mono, monospace" text-anchor="middle" fill="#0f172a">50</text>
+<rect x="652" y="562" width="250" height="26" rx="5" fill="#475569"/>
+<text x="662" y="580" font-size="14" fill="#ffffff">Ethernet RMII (IP101GRI)</text>
+<text x="912" y="580" font-size="13" fill="#475569">used by the board</text>
+<rect x="580" y="596" width="64" height="26" rx="5" fill="#e2e8f0"/>
+<text x="612" y="614" font-size="15" font-family="DejaVu Sans Mono, monospace" text-anchor="middle" fill="#0f172a">51</text>
+<rect x="652" y="596" width="250" height="26" rx="5" fill="#475569"/>
+<text x="662" y="614" font-size="14" fill="#ffffff">Ethernet PHY reset (IP101GRI)</text>
+<text x="912" y="614" font-size="13" fill="#475569">used by the board</text>
+<rect x="580" y="630" width="64" height="26" rx="5" fill="#e2e8f0"/>
+<text x="612" y="648" font-size="15" font-family="DejaVu Sans Mono, monospace" text-anchor="middle" fill="#0f172a">52</text>
+<rect x="652" y="630" width="250" height="26" rx="5" fill="#475569"/>
+<text x="662" y="648" font-size="14" fill="#ffffff">Ethernet MDIO (IP101GRI)</text>
+<text x="912" y="648" font-size="13" fill="#475569">used by the board</text>
+<rect x="580" y="664" width="64" height="26" rx="5" fill="#e2e8f0"/>
+<text x="612" y="682" font-size="15" font-family="DejaVu Sans Mono, monospace" text-anchor="middle" fill="#0f172a">53</text>
+<rect x="652" y="664" width="250" height="26" rx="5" fill="#64748b"/>
+<text x="662" y="682" font-size="14" fill="#ffffff">AMP EN</text>
+<rect x="580" y="698" width="64" height="26" rx="5" fill="#e2e8f0"/>
+<text x="612" y="716" font-size="15" font-family="DejaVu Sans Mono, monospace" text-anchor="middle" fill="#0f172a">54</text>
+<rect x="652" y="698" width="250" height="26" rx="5" fill="#64748b"/>
+<text x="662" y="716" font-size="14" fill="#ffffff">C6 EN</text>
+<rect x="20" y="762" width="18" height="18" rx="4" fill="#16a34a"/>
+<text x="46" y="776" font-size="13" fill="#334155">Free for your I/O</text>
+<rect x="393" y="762" width="18" height="18" rx="4" fill="#ea580c"/>
+<text x="419" y="776" font-size="13" fill="#334155">Analog input (ADC1)</text>
+<rect x="766" y="762" width="18" height="18" rx="4" fill="#2563eb"/>
+<text x="792" y="776" font-size="13" fill="#334155">Bus (I2C, SPI, UART, RS-485)</text>
+<rect x="20" y="792" width="18" height="18" rx="4" fill="#7c3aed"/>
+<text x="46" y="806" font-size="13" fill="#334155">CAN</text>
+<rect x="393" y="792" width="18" height="18" rx="4" fill="#0891b2"/>
+<text x="419" y="806" font-size="13" fill="#334155">Display and touch</text>
+<rect x="766" y="792" width="18" height="18" rx="4" fill="#475569"/>
+<text x="792" y="806" font-size="13" fill="#334155">Ethernet</text>
+<rect x="20" y="822" width="18" height="18" rx="4" fill="#64748b"/>
+<text x="46" y="836" font-size="13" fill="#334155">Used by the board</text>
+</svg>
