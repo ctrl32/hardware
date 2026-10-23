@@ -43,7 +43,7 @@ Every signal of the program is a **variable**. A variable on a pin reads or driv
 
 **Modbus RTU / RS-485.** There is no RS-485 transceiver on the board. Modbus devices are reached over Modbus TCP, directly or through a Modbus TCP / RTU gateway.
 
-**CAN.** The ESP32 has one CAN controller (TWAI), but this board does not bring it out to a transceiver, so ctrl32 does not offer CAN here. For CAN pick a board that carries it, such as the ESP32-EVB.
+**CAN.** The ESP32 has one CAN controller (TWAI), but this board does not bring it out to a transceiver, so ctrl32 does not offer CAN here. For CAN pick a board that carries it, such as the [ESP32-EVB](../olimex-esp32-evb/README.md).
 
 **MQTT.** The board publishes chosen variables to a broker; in the Home Assistant mode the broker finds them by itself, and a variable marked *write* can be set from there.
 

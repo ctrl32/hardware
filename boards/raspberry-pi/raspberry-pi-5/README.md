@@ -84,7 +84,7 @@ Board page in the catalog: [Raspberry Pi 5](https://ctrl32.com/hardware/boards/r
 - [ctrl32 documentation](https://ctrl32.com/docs/) - the editor, the languages, every block
 - [Download the editor](https://ctrl32.com/download/)
 - [All tested boards](../../README.md)
-- Raspberry Pi 4 Model B
-- Raspberry Pi 3 Model B+
+- [Raspberry Pi 4 Model B](../raspberry-pi-4-model-b/README.md)
+- [Raspberry Pi 3 Model B+](../raspberry-pi-3-model-b/README.md)
 - [The Linux runtime](https://ctrl32.com/docs/linux-runtime/) - what it does and its limits
 

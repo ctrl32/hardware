@@ -85,6 +85,6 @@ Board page in the catalog: [Olimex ESP32-PoE](https://ctrl32.com/hardware/boards
 - [ctrl32 documentation](https://ctrl32.com/docs/) - the editor, the languages, every block
 - [Download the editor](https://ctrl32.com/download/)
 - [All tested boards](../../README.md)
-- Olimex ESP32-PoE-ISO - the same board with an isolated PoE supply
-- Olimex ESP32-POE2 - the next generation
+- [Olimex ESP32-PoE-ISO](../olimex-esp32-poe-iso/README.md) - the same board with an isolated PoE supply
+- [Olimex ESP32-POE2](../olimex-esp32-poe2/README.md) - the next generation
 

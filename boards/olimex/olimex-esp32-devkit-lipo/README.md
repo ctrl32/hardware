@@ -76,5 +76,5 @@ Board page in the catalog: [Olimex ESP32-DevKit-LiPo](https://ctrl32.com/hardwar
 - [ctrl32 documentation](https://ctrl32.com/docs/) - the editor, the languages, every block
 - [Download the editor](https://ctrl32.com/download/)
 - [All tested boards](../../README.md)
-- Olimex ESP32-S3-DevKit-Lipo - the same idea with the ESP32-S3 and PSRAM
+- [Olimex ESP32-S3-DevKit-Lipo](../olimex-esp32-s3-devkit-lipo/README.md) - the same idea with the ESP32-S3 and PSRAM
 

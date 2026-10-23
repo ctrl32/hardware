@@ -38,7 +38,7 @@ The board takes its power from one of three sources:
     your PC can then carry a damaging current. Upload the runtime over USB
     with the Ethernet cable **unplugged** (or from a non-PoE port), then
     run the board on PoE. Where a PC must stay connected while the board is
-    on PoE, use the ESP32-PoE-ISO.
+    on PoE, use the [ESP32-PoE-ISO](../olimex-esp32-poe-iso/README.md).
 
 ## Pin map
 

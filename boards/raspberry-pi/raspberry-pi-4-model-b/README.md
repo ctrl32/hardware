@@ -79,6 +79,6 @@ Board page in the catalog: [Raspberry Pi 4 Model B](https://ctrl32.com/hardware/
 - [Download the editor](https://ctrl32.com/download/)
 - [All tested boards](../../README.md)
 - [Raspberry Pi 5](../raspberry-pi-5/README.md)
-- Raspberry Pi 3 Model B+
+- [Raspberry Pi 3 Model B+](../raspberry-pi-3-model-b/README.md)
 - [The Linux runtime](https://ctrl32.com/docs/linux-runtime/) - what it does and its limits
 
