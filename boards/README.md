@@ -16,8 +16,8 @@ Every board here runs ctrl32 as it is and has a guide of its own: what ctrl32 do
 | | Board | Chip | Interfaces |
 |---|---|---|---|
 | <img src="laskakit/laskakit-esplan/img/board-01.jpg" width="160" alt="LaskaKit ESPlan"> | [LaskaKit ESPlan](laskakit/laskakit-esplan/README.md) | ESP32 | Ethernet, RS-485 |
-| <img src="makerfabs/makerfabs-matouch-esp32-p4-tft-with-touch-7-mipi/img/board-01.jpg" width="160" alt="Makerfabs MaTouch ESP32-P4 7""> | [Makerfabs MaTouch ESP32-P4 7"](makerfabs/makerfabs-matouch-esp32-p4-tft-with-touch-7-mipi/README.md) | ESP32-P4 | Ethernet, CAN, RS-485, HMI 1024x600 |
-| <img src="makerfabs/makerfabs-matouch-lite-esp32-s3-spi-resistive-touch-395-st7796/img/board-01.jpg" width="160" alt="Makerfabs MaTouch Lite ESP32-S3 3.95""> | [Makerfabs MaTouch Lite ESP32-S3 3.95"](makerfabs/makerfabs-matouch-lite-esp32-s3-spi-resistive-touch-395-st7796/README.md) | ESP32-S3 | CAN, RS-485, HMI 320x480 |
+| <img src="makerfabs/makerfabs-matouch-esp32-p4-tft-with-touch-7-mipi/img/board-01.jpg" width="160" alt="Makerfabs MaTouch ESP32-P4 7&quot;"> | [Makerfabs MaTouch ESP32-P4 7"](makerfabs/makerfabs-matouch-esp32-p4-tft-with-touch-7-mipi/README.md) | ESP32-P4 | Ethernet, CAN, RS-485, HMI 1024x600 |
+| <img src="makerfabs/makerfabs-matouch-lite-esp32-s3-spi-resistive-touch-395-st7796/img/board-01.jpg" width="160" alt="Makerfabs MaTouch Lite ESP32-S3 3.95&quot;"> | [Makerfabs MaTouch Lite ESP32-S3 3.95"](makerfabs/makerfabs-matouch-lite-esp32-s3-spi-resistive-touch-395-st7796/README.md) | ESP32-S3 | CAN, RS-485, HMI 320x480 |
 | <img src="olimex/olimex-esp32-devkit-lipo/img/board-01.jpg" width="160" alt="Olimex ESP32-DevKit-LiPo"> | [Olimex ESP32-DevKit-LiPo](olimex/olimex-esp32-devkit-lipo/README.md) | ESP32 | - |
 | <img src="olimex/olimex-esp32-evb/img/board-01.jpg" width="160" alt="Olimex ESP32-EVB"> | [Olimex ESP32-EVB](olimex/olimex-esp32-evb/README.md) | ESP32 | Ethernet, CAN, HMI 240x320 |
 | <img src="olimex/olimex-esp32-gateway/img/board-01.jpg" width="160" alt="Olimex ESP32-GATEWAY"> | [Olimex ESP32-GATEWAY](olimex/olimex-esp32-gateway/README.md) | ESP32 | Ethernet |
