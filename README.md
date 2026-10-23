@@ -2,7 +2,7 @@
 
 **Tested boards for ctrl32 - setup guides, pin maps, schematics and example projects.**
 
-![A ctrl32 operator screen running on a tested board](boards/makerfabs/makerfabs-matouch-esp32-p4-tft-with-touch-7-mipi/examples/all-in-one/img/screen.png)
+![A home dashboard made in ctrl32, running on the Makerfabs MaTouch ESP32-P4 7-inch board](boards/makerfabs/makerfabs-matouch-esp32-p4-tft-with-touch-7-mipi/examples/home-dashboard/img/screen.jpg)
 
 ctrl32 turns an ESP32 board or a Raspberry Pi into a PLC with its own HMI: ladder, FBD and Structured Text programs, screens on the board's display and in any browser (WEBview), Modbus RTU / TCP, CANopen, MQTT, OPC UA and EtherCAT - built in one editor and downloaded over USB or the network.
 
