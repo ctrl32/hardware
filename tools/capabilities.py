@@ -161,12 +161,59 @@ def table(web, fx, warn):
     return "\n".join(out)
 
 
+# The translated tables (README.<lang>.md): the same rows, the fixed words of
+# the table in the language - the catalog's own values (USB-C, Wi-Fi 2.4 GHz,
+# the chip names) stay as the catalog writes them. Longer phrases first.
+WORDS = {
+    "sk": [
+        ("| Feature | On this board | Notes |", "| Vlastnosť | Na tejto doske | Poznámka |"),
+        ("checked by the editor before a download", "editor ho overí pred nahratím"),
+        ("Digital inputs / outputs", "Digitálne vstupy / výstupy"),
+        ("through I/O modules", "cez I/O moduly"),
+        ("free GPIO", "voľných GPIO"), ("of them inputs only", "z nich len vstupy"),
+        ("see the pin map", "pozri mapu pinov"),
+        ("Analog inputs", "Analógové vstupy"), ("on the chip (ADC1)", "na čipe (ADC1)"),
+        ("through an I2C ADC (ADS1115)", "cez I2C prevodník (ADS1115)"),
+        ("Program size", "Veľkosť programu"), (" variables,", " premenných,"), (" alarms,", " alarmov,"),
+        (" blocks |", " blokov |"),
+        ("Power over Ethernet", "Napájanie cez Ethernet"),
+        ("through a CAN HAT or a USB adapter", "cez CAN HAT alebo USB adaptér"),
+        ("SocketCAN, up to 4 buses", "SocketCAN, až 4 zbernice"),
+        ("on the chip - not brought out on this board", "na čipe - doska ho nevyvádza"),
+        ("needs an external transceiver", "treba externý prevodník"),
+        ("on free pins", "na voľných pinoch"),
+        ("no transceiver on the board", "doska nemá prevodník"),
+        ("a USB dongle or a HAT", "USB prevodník alebo HAT"),
+        ("client and server", "klient aj server"),
+        ("Home Assistant discovery", "objavenie v Home Assistant"),
+        ("the operator page in any browser", "stránka operátora v každom prehliadači"),
+        ("OPC UA server", "Server OPC UA"), ("on a second Ethernet port", "na druhom porte Ethernet"),
+        ("Display / touch (HMI)", "Displej / dotyk (HMI)"), ("Display (HMI)", "Displej (HMI)"),
+        ("HDMI or a DSI panel", "HDMI alebo panel DSI"), ("or headless with WEBview", "alebo bez displeja s WEBview"),
+        ("the operator page is WEBview", "stránka operátora je WEBview"),
+        ("(TLS too)", "(aj TLS)"),
+        ("| Chip |", "| Čip |"), ("| Memory |", "| Pamäť |"), ("| Power |", "| Napájanie |"),
+        ("| yes", "| áno"), ("yes - ", "áno - "), ("| no |", "| nie |"),
+    ],
+}
+
+
+def localize(tab, lang):
+    for en, tr in WORDS.get(lang, []):
+        tab = tab.replace(en, tr)
+    return tab
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--check", action="store_true")
     a = ap.parse_args()
     stale = 0
-    for readme in sorted(glob.glob(os.path.join(ROOT, "boards", "**", "README.md"), recursive=True)):
+    readmes = glob.glob(os.path.join(ROOT, "boards", "**", "README.md"), recursive=True)
+    readmes += glob.glob(os.path.join(ROOT, "boards", "**", "README.*.md"), recursive=True)
+    for readme in sorted(readmes):
+        m = re.match(r"README\.([a-z]{2})\.md$", os.path.basename(readme))
+        lang = m.group(1) if m else "en"
         text = open(readme, encoding="utf-8").read()
         fmd = front_matter(text)
         addr = fmd.get("hardware")
@@ -180,7 +227,7 @@ def main():
             stale += 1
             continue
         warn = []
-        new_tab = table(web, fx, warn)
+        new_tab = localize(table(web, fx, warn), lang)
         for x in warn:
             print(f"  warning: {os.path.relpath(readme, ROOT)}: the catalog has no {x}", file=sys.stderr)
         new = re.sub(re.escape(START) + r".*?" + re.escape(END), START + "\n" + new_tab + "\n" + END, text, flags=re.S)
