@@ -1,6 +1,6 @@
 ---
-title: Hardware
-slug: hardware
+title: Hardware wiki
+slug: wiki
 sidebar_position: 1
 image: laskakit/laskakit-esplan/img/board-01.jpg
 image_alt: Boards tested with ctrl32

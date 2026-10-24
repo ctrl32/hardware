@@ -2,7 +2,7 @@ site_name: ctrl32 hardware
 site_description: >-
   Tested boards for ctrl32 - setup guides, pin maps, schematics and example
   projects.
-site_url: https://ctrl32.com/docs/hardware/
+site_url: https://ctrl32.com/docs/wiki/
 repo_url: https://github.com/ctrl32/hardware
 edit_uri: edit/main/boards/
 docs_dir: boards

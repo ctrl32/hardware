@@ -6,7 +6,7 @@
 
 ctrl32 turns an ESP32 board or a Raspberry Pi into a PLC with its own HMI: ladder, FBD and Structured Text programs, screens on the board's display and in any browser (WEBview), Modbus RTU / TCP, CANopen, MQTT, OPC UA and EtherCAT - built in one editor and downloaded over USB or the network.
 
-[Download the editor](https://ctrl32.com/download/) · [Documentation](https://ctrl32.com/docs/) · [Hardware catalog](https://ctrl32.com/hardware/) · [These guides on the web](https://ctrl32.com/docs/hardware/)
+[Download the editor](https://ctrl32.com/download/) · [Documentation](https://ctrl32.com/docs/) · [Hardware catalog](https://ctrl32.com/hardware/) · [These guides on the web](https://ctrl32.com/docs/wiki/)
 
 ## Tested boards
 

@@ -1,6 +1,6 @@
 ---
-title: Hardvér
-slug: hardware
+title: Hardvérová wiki
+slug: wiki
 sidebar_position: 1
 image: laskakit/laskakit-esplan/img/board-01.jpg
 image_alt: Dosky otestované s ctrl32
