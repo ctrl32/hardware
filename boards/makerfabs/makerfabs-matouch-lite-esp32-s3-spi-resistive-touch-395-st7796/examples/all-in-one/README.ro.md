@@ -1,0 +1,59 @@
+---
+title: 'Makerfabs MaTouch Lite ESP32-S3 3.95": exemplul All-in-one'
+slug: all-in-one
+sidebar_position: 10
+hardware: /hardware/boards/makerfabs-matouch-lite-esp32-s3-spi-resistive-touch-395-st7796/
+image: img/screen.png
+image_alt: Pagina operatorului din exemplul all-in-one pentru Makerfabs MaTouch Lite ESP32-S3 3.95"
+tags:
+- esp32-s3
+- display
+- touch
+- hmi
+- wifi
+- makerfabs
+- example
+---
+
+# All-in-one
+
+O ieșire de motor cu start / stop, un temporizator de funcționare, un nivel analogic, cadre CAN, un contor Modbus TCP, MQTT și un ecran tactil.
+
+**Descărcare:** [all-in-one.prj32](all-in-one.prj32) - deschide-l în editorul ctrl32 (**File → Open**).
+
+## Ce face
+
+Programul este un mic controler de mașină - forma majorității mașinilor:
+
+- **Start** vine de la ecranul, de la **Start** de pe ecran sau din Home Assistant prin MQTT.
+- **Stop** vine de la **Stop**, de la un nivel scăzut sau de la expirarea timpului de funcționare - automenținerea oprește ieșirea de pe **GPIO4**.
+- **Timpul de funcționare** se setează în minute și se păstrează la o pană de curent.
+- **Nivelul** este o intrare analogică pe **GPIO5** (0 la 3,3 V scalat la 0 la 100 %); sub 10 % ieșirea se oprește și se declanșează o alarmă, peste 15 % poate porni din nou.
+- **CAN** trimite nivelul și starea ieșirii în cadrul 0x181 la fiecare 100 ms și primește o valoare de referință în cadrul 0x201.
+- Un contor de energie **Modbus TCP** din rețea dă puterea consumată (192.168.1.60 - schimbă-o cu cea a contorului tău).
+- **MQTT** publică valorile către un broker Home Assistant, care le găsește singur; ieșirea poate fi pornită și din Home Assistant.
+- **Ecranul** pe display și aceeași pagină în orice browser (**WEBview**).
+- Placa se conectează la **Wi-Fi**-ul tău: introdu numele și parola rețelei pe pagina WiFi înainte de descărcare.
+
+## Programul
+
+![Programul ladder al exemplului](img/ladder.png)
+
+## Pagina operatorului
+
+![Pagina operatorului rulând în simulare](img/screen.png)
+
+## Deschide-l și rulează-l
+
+1. Deschide `all-in-one.prj32` în editor.
+2. Schimbă adresele (dispozitivul Modbus, brokerul MQTT) cu cele ale rețelei tale.
+3. Pornește **simularea** (bara de instrumente) pentru a-l încerca pe PC sau descarcă-l pe placă - vezi [Instalarea runtime-ului](../../install.ro.md).
+
+## Ce ar trebui să vezi
+
+Apasă **Start**: ieșirea de pe GPIO4 se activează și LED-ul ei de pe pagină se aprinde. După timpul de funcționare se oprește singură, iar când nivelul scade sub 10 %, alarma apare în tabel. În Home Assistant placa apare cu valorile ei.
+
+
+---
+
+[← Proiecte exemplu](../README.ro.md) | [Prezentare](../../README.ro.md)

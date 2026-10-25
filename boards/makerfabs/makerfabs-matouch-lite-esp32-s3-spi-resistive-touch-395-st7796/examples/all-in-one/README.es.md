@@ -1,0 +1,59 @@
+---
+title: 'Makerfabs MaTouch Lite ESP32-S3 3.95": ejemplo All-in-one'
+slug: all-in-one
+sidebar_position: 10
+hardware: /hardware/boards/makerfabs-matouch-lite-esp32-s3-spi-resistive-touch-395-st7796/
+image: img/screen.png
+image_alt: La página del operador del ejemplo all-in-one para la Makerfabs MaTouch Lite ESP32-S3 3.95"
+tags:
+- esp32-s3
+- display
+- touch
+- hmi
+- wifi
+- makerfabs
+- example
+---
+
+# All-in-one
+
+Una salida de motor con marcha / paro, un temporizador de marcha, un nivel analógico, tramas CAN, un contador Modbus TCP, MQTT y una pantalla táctil.
+
+**Descarga:** [all-in-one.prj32](all-in-one.prj32) - ábrelo en el editor ctrl32 (**File → Open**).
+
+## Qué hace
+
+El programa es un pequeño control de máquina - la forma de la mayoría de las máquinas:
+
+- **Start** llega desde la pantalla, desde **Start** en la pantalla o desde Home Assistant por MQTT.
+- **Stop** llega desde **Stop**, desde un nivel bajo o al agotarse el tiempo de marcha - el enclavamiento apaga la salida en **GPIO4**.
+- El **tiempo de marcha** se ajusta en minutos y se conserva tras un corte de corriente.
+- El **nivel** es una entrada analógica en **GPIO5** (de 0 a 3,3 V escalado de 0 a 100 %); por debajo del 10 % la salida se detiene y salta una alarma, por encima del 15 % puede volver a arrancar.
+- **CAN** envía el nivel y el estado de la salida en la trama 0x181 cada 100 ms y recibe una consigna en la trama 0x201.
+- Un contador de energía **Modbus TCP** en la red da la potencia demandada (192.168.1.60 - cámbiala por la de tu contador).
+- **MQTT** publica los valores en un broker de Home Assistant, que los encuentra por sí solo; la salida también se puede arrancar desde Home Assistant.
+- La **pantalla** en el display y la misma página en cualquier navegador (**WEBview**).
+- La placa se conecta a tu **Wi-Fi**: escribe el nombre y la contraseña de la red en la página WiFi antes de la descarga.
+
+## El programa
+
+![El programa en ladder del ejemplo](img/ladder.png)
+
+## La página del operador
+
+![La página del operador en la simulación](img/screen.png)
+
+## Abrirlo y ejecutarlo
+
+1. Abre `all-in-one.prj32` en el editor.
+2. Cambia las direcciones (el dispositivo Modbus, el broker MQTT) por las de tu red.
+3. Inicia la **simulación** (barra de herramientas) para probarlo en el PC, o descárgalo a la placa - consulta [Instalar el runtime](../../install.es.md).
+
+## Qué deberías ver
+
+Pulsa **Start**: la salida en GPIO4 se enciende y su LED en la página se ilumina. Pasado el tiempo de marcha se apaga sola, y cuando el nivel baja del 10 % la alarma aparece en la tabla. En Home Assistant la placa aparece con sus valores.
+
+
+---
+
+[← Proyectos de ejemplo](../README.es.md) | [Resumen](../../README.es.md)

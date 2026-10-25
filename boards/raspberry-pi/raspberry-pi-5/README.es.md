@@ -1,0 +1,90 @@
+---
+title: Raspberry Pi 5
+slug: raspberry-pi-5
+sidebar_position: 10
+hardware: /hardware/boards/raspberry-pi-5/
+image: img/board-01.jpg
+image_alt: Placa Raspberry Pi 5 vista desde arriba
+tags:
+- raspberry-pi
+- linux
+- hmi
+- opc-ua
+- ethercat
+---
+
+# Raspberry Pi 5
+
+![tested with: ctrl32](https://img.shields.io/badge/tested%20with-ctrl32-0ea5e9) ![chip: Linux](https://img.shields.io/badge/chip-Linux-334155) ![Ethernet: yes](https://img.shields.io/badge/Ethernet-yes-16a34a) ![Wi-Fi: yes](https://img.shields.io/badge/Wi--Fi-yes-16a34a) ![CAN: 1](https://img.shields.io/badge/CAN-1-7c3aed)
+
+![Placa Raspberry Pi 5 vista desde arriba](img/board-01.jpg)
+
+La Raspberry Pi 5 ejecuta el runtime Linux de ctrl32 - el destino más grande de ctrl32: decenas de miles de variables, un HMI en el monitor HDMI, un servidor OPC UA para SCADA, accionamientos EtherCAT, CAN y RS-485 mediante HAT o adaptadores USB, y visión artificial con una cámara. El editor instala el runtime por la red; después la Pi lo arranca en cada inicio.
+
+**Ideal para:**
+
+- Un control de línea con un HMI en un monitor HDMI y OPC UA hacia SCADA
+- Un maestro EtherCAT para servoaccionamientos
+- Una pasarela entre Modbus, CAN, OPC UA y MQTT
+
+Página de la placa en el catálogo: [Raspberry Pi 5](https://ctrl32.com/hardware/boards/raspberry-pi-5/)
+
+![Raspberry Pi 5 - mapa de pines: la función de cada GPIO en ctrl32](pinout/pinout.png)
+
+## Qué puede hacer ctrl32 en esta placa
+
+<!-- capabilities:start -->
+| Característica | En esta placa | Notas |
+|---|---|---|
+| Chip | Linux |  |
+| Tamaño del programa | 20480 variables, 4096 alarmas, 40960 bloques | el editor lo comprueba antes de una descarga |
+| Entradas / salidas digitales | mediante módulos de E/S | Modbus, CANopen, EtherCAT |
+| Ethernet | sí |  |
+| Wi-Fi | Wi-Fi 5 (2.4 + 5 GHz) |  |
+| CAN | mediante un HAT CAN o un adaptador USB | SocketCAN, hasta 4 buses |
+| Modbus RTU (RS-485) | sí | un adaptador USB o un HAT |
+| Modbus TCP | cliente y servidor |  |
+| MQTT | sí (también TLS) | descubrimiento en Home Assistant |
+| WEBview | sí | la página del operador en cualquier navegador |
+| Servidor OPC UA | sí |  |
+| EtherCAT master | sí | en un segundo puerto Ethernet |
+| Pantalla (HMI) | HDMI o un panel DSI | o sin pantalla con WEBview |
+| USB | USB-C |  |
+| Alimentación | USB-C PD 5 V / 5 A |  |
+<!-- capabilities:end -->
+
+### Qué no está soportado
+
+- La tira GPIO de 40 pines como E/S del programa - las entradas y salidas van por módulos de E/S (Modbus RTU / TCP, CANopen, EtherCAT); la tira lleva los buses de los HAT.
+- Bluetooth.
+- Un entorno de escritorio - el runtime dibuja la pantalla por sí mismo; Raspberry Pi OS Lite es el sistema que necesita.
+
+## La guía
+
+| Paso | Página |
+|---|---|
+| 1 | [Hardware y cableado](hardware.es.md) - qué necesitas, alimentación, el mapa de pines |
+| 2 | [Instalar el runtime](install.es.md) - el editor, la placa, la primera carga |
+| 3 | [Configurar](configure.es.md) - red, E/S, comunicación |
+| 4 | [Proyectos de ejemplo](examples/README.es.md) - todo lo que hace la placa, listo para abrir |
+| - | [Solución de problemas](troubleshooting.es.md) |
+
+## Archivos
+
+| Archivo | Qué |
+|---|---|
+| [pinout/pinout.svg](pinout/pinout.svg) | el mapa de pines, en vectorial (también en [PNG](pinout/pinout.png)) |
+| [raspberry-pi-5-mechanical-drawing.pdf](datasheets/raspberry-pi-5-mechanical-drawing.pdf) | Raspberry Pi 5 mechanical drawing |
+| [raspberry-pi-5-rp1-peripherals.pdf](datasheets/raspberry-pi-5-rp1-peripherals.pdf) | RP1 peripherals |
+| [raspberry-pi-5-3d.zip](3d/raspberry-pi-5-3d.zip) | Modelo 3D (GLB, comprimido en zip) |
+| [NOTICE](https://github.com/ctrl32/hardware/blob/main/NOTICE.md) | de dónde vienen las fotos, los esquemas y los modelos |
+
+## Siguientes pasos
+
+- [Documentación de ctrl32](https://ctrl32.com/docs/) - el editor, los lenguajes, cada bloque
+- [Descargar el editor](https://ctrl32.com/download/)
+- [Todas las placas probadas](../../README.es.md)
+- Raspberry Pi 4 Model B
+- Raspberry Pi 3 Model B+
+- [El runtime Linux](https://ctrl32.com/docs/linux-runtime/) - qué hace y sus límites
+
